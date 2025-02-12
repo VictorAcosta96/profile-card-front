@@ -1,0 +1,96 @@
+:root {
+	--bg-color: linear-gradient(90deg, #eebe6c, #dd8450);
+	--bg-card: #ffffff;
+	--color-text: #786450;
+	--bg-stats: #786450;
+	--color-stats-text: #f5e8df;
+}
+
+/* RESET BÁSICO */
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+nav ul {
+	margin-block: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body {
+	margin: 0;
+	background-image: var(--bg-color);
+	font-family: 'Open Sans', serif;
+}
+
+.card {
+	width: 300px;
+	height: 15.625rem;
+	margin-inline: auto;
+	margin-top: 10vh;
+	background-color: var(--bg-card);
+	border-radius: 1rem;
+	overflow: hidden;
+}
+
+.card__profile {
+	width: 161px;
+	text-align: center;
+	color: var(--color-text);
+	padding: 1rem 1.0625rem 0.625rem;
+}
+
+.card__profile,
+.card__stats {
+	display: inline-block;
+}
+
+.card__name {
+	font-weight: 300;
+	margin-block: 0;
+}
+
+.card__profesion {
+	margin-top: 0;
+	font-size: 14px;
+	font-weight: 100;
+}
+
+.card__cta {
+	display: block;
+	width: 110px;
+	padding: 0.2px;
+	margin-bottom: 0.5rem;
+	text-align: center;
+	border: 1px solid var(--color-text);
+	border-radius: 2rem;
+}
+
+.card__stats {
+	width: 8.4281rem;
+	text-align: center;
+}
+
+.card__info {
+	margin-bottom: 0.2rem;
+	padding: 0.155rem;
+	color: var(--bg-stats);
+	background-color: var(--color-stats-text);
+}
+
+.card__number {
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+.card__text {
+	margin-top: 0;
+	font-weight: semibold;
+}
