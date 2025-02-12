@@ -27,7 +27,7 @@ En este proyecto, podrás practicar y mejorar en áreas como:
 
 Reflexiona sobre lo aprendido al completar el proyecto y anótalo aquí. Ejemplo:
 
-> _"Aprendí a usar...
+> \_"Aprendí a usar...
 
 ---
 
@@ -40,7 +40,7 @@ Reflexiona sobre lo aprendido al completar el proyecto y anótalo aquí. Ejemplo
 
 ## 🔗 Vista en Vivo
 
-Haz clic aquí para ver tu proyecto en acción: [Demo en vivo](url-de-tu-vista-en-vivo)
+Haz clic aquí para ver tu proyecto en acción: [Demo en vivo](https://victoracosta96.github.io/profile-card-front/)
 
 ## 🔥 Publicidad de AprendeFrontend.com
 
